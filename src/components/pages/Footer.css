@@ -1,0 +1,85 @@
+.footer_top {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4rem;
+  margin-left: 8rem;
+  margin-right: 8rem;
+}
+
+.footer_col {
+  display: grid;
+  width: 20rem;
+}
+
+.footer_colHeader {
+  margin-bottom: 3rem !important;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+  font-size: 20px;
+}
+
+.footer_colDesc {
+  margin-bottom: 3px;
+  font-size: 0.9em;
+  word-spacing: 2px;
+  letter-spacing: 0.6px;
+}
+
+.items {
+  display: flex;
+  align-items: center;
+  padding-left: 4px;
+}
+
+.mail_bar {
+  display: flex;
+  justify-content: center;
+  border: 1px solid #000;
+  height: 2rem;
+}
+
+input {
+  text-decoration: none;
+  border: none !important;
+  background: inherit;
+  outline: none;
+  margin-left: 0 !important;
+  padding: 0 1.5rem;
+}
+
+button {
+  text-decoration: none;
+  border: none !important;
+  background: rgb(27, 2, 141) !important;
+  outline: none;
+  color: aliceblue !important;
+  padding: 0.5rem 1rem !important;
+  font-size: 1rem !important;
+}
+
+.footer_bottom {
+  display: flex;
+  justify-content: space-between;
+  margin: 5rem 8rem;
+  font-size: 0.8em;
+  word-spacing: 2px;
+  letter-spacing: 0.6px;
+}
+
+.footer_bottomLeft span {
+  font-weight: 500;
+}
+
+.footer_bottomRight {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #000;
+  padding: 0 1rem;
+  font-size: small;
+}
+
+.icon {
+  margin-left: 5px;
+  font-size: small;
+}

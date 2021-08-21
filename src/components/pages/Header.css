@@ -1,0 +1,57 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  height: 50px;
+  top: 0;
+  z-index: 100;
+  padding-bottom: 0.3rem !important;
+  box-shadow: 0 0 32px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.877);
+}
+
+.header_left {
+  display: flex;
+  align-items: baseline;
+  flex: 0.9;
+}
+
+.header_option {
+  display: flex;
+  flex-direction: column;
+  margin-left: 2em;
+  cursor: pointer;
+}
+
+.header_optionLine {
+  font-size: 15px;
+  font-weight: 500;
+  color: rgb(46, 19, 19);
+}
+
+.header_optionLineExact {
+  font-size: 30px;
+  font-weight: 600;
+  color: rgb(46, 19, 19);
+}
+
+.header_right {
+  display: flex;
+  align-items: baseline;
+  flex: 0.1;
+  margin-right: -5rem;
+}
+
+.header_rightIcon {
+  width: 1em !important;
+  height: 1.7em !important;
+  cursor: pointer;
+  color: rgb(46, 19, 19);
+  padding-left: 10px;
+}
+
+.Header_black {
+  background-color: #111;
+}

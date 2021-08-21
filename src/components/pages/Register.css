@@ -1,0 +1,50 @@
+.register {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  margin: auto;
+  padding-top: 2rem;
+}
+
+.indicator {
+  color: red;
+  font-weight: 900;
+}
+
+.register_para {
+  margin-left: 35rem;
+  font-size: 0.8rem !important;
+}
+
+.register_details {
+  display: grid !important;
+  grid-template-columns: repeat(2, 1fr);
+  width: 100%;
+}
+
+#input1 {
+  margin-right: 1.5rem;
+}
+
+#input2 {
+  margin-left: 1.5rem;
+}
+
+hr {
+  width: 100%;
+  border-color: rgb(34, 34, 34) !important;
+}
+
+select {
+  text-decoration: none;
+  background: inherit;
+  outline: none;
+  margin-left: 0 !important;
+  height: 2.7rem !important;
+}
+
+option {
+  font-weight: 100 !important;
+}

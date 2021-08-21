@@ -1,0 +1,37 @@
+.slider {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  overflow: hidden;
+}
+
+.image {
+  width: 100vw;
+  height: 800px;
+  margin-top: -4rem;
+  cursor: grab;
+  margin-left: 4rem;
+}
+
+.arrow_forward {
+  position: absolute;
+  margin-top: -5rem;
+  right: 2rem;
+  width: 60px !important;
+  height: 60px !important;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.slide {
+  opacity: 0;
+  transition-duration: 1s ease;
+}
+
+.slide.active {
+  opacity: 1;
+  transition-duration: 1s;
+  transform: scale(1.08);
+}
