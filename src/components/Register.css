@@ -48,3 +48,16 @@ select {
 option {
   font-weight: 100 !important;
 }
+
+.register_submit {
+  margin: 20px;
+  border: 1px solid #000;
+}
+
+.register_submit button {
+  font-size: 1.5rem !important;
+  color: black !important;
+  background: inherit !important;
+  font-weight: 100 !important;
+  cursor: pointer;
+}

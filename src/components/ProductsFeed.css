@@ -1,0 +1,26 @@
+.productsFeed {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 4rem;
+}
+
+.products_image {
+  width: 45%;
+  height: 300px;
+  border: 10px solid #000;
+  margin-bottom: 5rem !important;
+  background: inherit;
+  padding: 2rem;
+  margin: auto;
+}
+
+.products {
+  display: flex !important;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+
+.products_button {
+  border: 1px solid #000;
+  margin: auto;
+}

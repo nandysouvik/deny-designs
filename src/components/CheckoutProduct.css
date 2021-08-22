@@ -1,0 +1,17 @@
+.checkoutProduct {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: auto;
+}
+
+.checkoutProduct_details {
+  display: flex;
+  flex-direction: column;
+}
+
+.btn {
+  width: 200px;
+  padding: 2rem !important;
+  margin: auto;
+  margin-bottom: 2rem !important;
+}

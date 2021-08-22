@@ -61,6 +61,9 @@ function Register({ states }) {
           </select>
         </div>
       </div>
+      <div className="register_submit">
+        <button>SUBMIT</button>
+      </div>
     </div>
   )
 }
